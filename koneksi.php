@@ -11,7 +11,7 @@ if (mysqli_connect_errno()) {
 	echo "Failed connect to mysql :" . mysqli_connect_error(); die();
 	# code...
 }else {
-	echo "Success connect to mysql";
+	// echo "Success connect to mysql";
 }
 
 ?>
